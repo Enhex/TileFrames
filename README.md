@@ -5,4 +5,6 @@ Creates an XML file containing the `<texanim>` nodes. Copy them into your partic
 A special `<TOTAL_TIME>` node is prepended which gives you the total animation time, so you don't have to manually calculate it.
 
 ### Usage
+You need to add [pugixml](http://pugixml.org/) to your project.
+
 `TileFrames <output file> <X tiles> <Y tiles> <framerate> [uv scale] [number of frames]`
